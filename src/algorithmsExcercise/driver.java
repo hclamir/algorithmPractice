@@ -5,7 +5,7 @@ import java.util.*;
   
 
 public class driver {
-
+	// problem: if the string contains numbers, we need to adjust the size so it would fit ASCII characters.
 	// returns the index of the char that exist the most in string s
 	public static int maxCharacter(String s) {
 		int[] counter = new int[26];
